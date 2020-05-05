@@ -1,0 +1,38 @@
+view.singleCommodity{
+    margin:10px 16px;
+    font-size: 15px;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    border:1rpx solid #dddee1;
+    border-radius: 5px;
+}
+
+view.singleInterior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+image.commodityImage{
+    margin-top:5rpx;
+    margin-left: 10rpx;
+    margin-bottom: 5rpx;
+    width: 150rpx;
+    height: 150rpx;
+}
+view.singleNumber{
+    position: absolute;
+    right: 30rpx;
+    font-size: 35rpx;
+    color: red;
+}
+view.singleText{
+    margin-left: 150rpx;
+    text-align: center;
+    height: 100%;
+    font-size: 35rpx;
+}
+view.singleTextTop{
+    border-bottom: 1rpx solid #dddee1;
+}

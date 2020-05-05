@@ -1,0 +1,46 @@
+Page({
+    data: {
+        goodsList:[],
+        farmer:{}
+    },
+    onLoad: function (options) {
+        console.log(options);
+        wx.getStorage({
+            key:"accessToken",
+            success:(res)=>{
+                wx.request({
+                    url:"http://www.s1mpIe.top:8080/sxdj/farmer",
+                    method:'get',
+                    header:{
+                        accessToken:res.data
+                    },
+                    data:{
+                        farmerId:options.id
+                    },
+                    success:(result)=>{
+                        console.log(result);
+                        this.setData({
+                            farmer:result.data.farmer
+                        })
+                    }
+                });
+                wx.request({
+                    url:'http://www.s1mpie.top:8080/sxdj/farmer/goods',
+                    method:'get',
+                    header:{
+                        accessToken:res.data
+                    },
+                    data:{
+                        farmerId:options.id
+                    },
+                    success:(result)=>{
+                        console.log(result);
+                        this.setData({
+                            goodsList:result.data.goods
+                        })
+                    }
+                })
+            }
+        })
+    }
+});

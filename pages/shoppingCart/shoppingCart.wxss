@@ -1,0 +1,32 @@
+.Title{
+    height: 100px;
+    align-items: center;
+}
+.Title{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1;
+}
+.singleGoods{
+    height: 200px;
+}
+.singleInside{
+    margin: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dddee1;
+    border-radius: 5px;
+}
+.consumer{
+    display: flex;
+    flex-direction: row;
+}
+
+.goodsData{
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+}
+.goodsImage{
+    width: 150px;
+}

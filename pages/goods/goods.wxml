@@ -1,0 +1,18 @@
+<i-panel wx:if="{{}}" title="圆角输入框">
+    <i-input value="{{searchText}}" type="text"  mode="wrapped" placeholder="搜索" />
+</i-panel>
+<block wx:for="{{goodsList}}" wx:key="id" >
+    <view class="singleCommodity" >
+        <view class="singleInterior" bindtap="bindToSingleGoods" data-id="{{item.id}}">
+            <view>
+                <image src="{{item.imageUrl}}"  class="commodityImage"></image>
+            </view>
+            <view class="singleText">
+                <view class="singleTextTop">{{item.name}}</view>
+            </view>
+            <view class="singleNumber">
+                <view>{{item.price}}/{{item.priceUnit}}</view>
+            </view>
+        </view>
+    </view>
+</block>

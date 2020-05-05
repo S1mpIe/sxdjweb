@@ -1,0 +1,7 @@
+<!--pages/farmers/farmers.wxml-->
+
+<block wx:for="{{farmerList}}" wx:key="id">
+    <i-card title="{{item.name}}" thumb="{{item.imageAddress}}" extra="{{item.cate}}" i-class="FarmerItem" bind:tap="bindToFarmer" data-id="{{item.id}}">
+        <view slot="content" >{{item.introduce}}</view>
+    </i-card>
+</block>

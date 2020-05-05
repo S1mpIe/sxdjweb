@@ -1,0 +1,27 @@
+<view class="Title">
+    <view class="TitleText">购物车</view>
+</view>
+<view>
+    <view  wx:for="{{goodsList}}" wx:key="id" class="singleGoods">
+        <view class="singleInside">
+            <view class="consumer">
+                <view class="consumerInside">
+                    <view>{{item.origin}}</view>
+                    <view bindtap="deleteThisGoods" data-index="{{index}}">Cancel</view>
+                </view>
+            </view>
+            <view class="goodsData">
+                <view >
+                    <image src="{{item.imageUrl}}" mode="widthFix" class="goodsImage"></image>
+                </view>
+                <view>
+                    <view>{{item.name}}</view>
+                    <view>
+                        <view>￥ {{item.price}}</view>
+                        <i-input-number value="{{item.selectNumber}}" min="1" max="{{item.number}}" bindchange="handleChange" data-index="{{index}}" />
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

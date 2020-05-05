@@ -1,0 +1,6 @@
+.FarmerItem{
+    margin-top: 10rpx;
+}
+view.FarmerFooter{
+    background: lightcyan;
+}

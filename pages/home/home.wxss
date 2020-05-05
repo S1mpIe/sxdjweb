@@ -1,0 +1,60 @@
+image.swiper{
+  width: 100%
+}
+swiper.homeSwiper{
+  width: 750rpx;
+  height: 422rpx;
+}
+.categoryInfo{
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin-top: 10rpx;
+  height: 130rpx;
+  width: 33%;
+}
+.categoryImage{
+  width: 90rpx;
+  height: 90rpx;
+}
+.categoryText{
+  font-size: 25rpx;
+  width: 100%;
+  line-height: 30rpx;
+}
+image.recommendTitleImage{
+  width: 55rpx;
+  height: 55rpx;
+  margin-left: 10rpx;
+}
+view.recommendTitleText{
+  margin-left: 10rpx;
+  font-size: 30rpx;
+  line-height: 55rpx;
+}
+view.recommendTitle{
+  display: flex;
+  flex: 1;
+}
+
+view.recommend{
+  display: flex;
+  flex-direction: row;
+}
+view.recommendItem{
+  margin-left: 20rpx;
+  margin-top: auto ;
+  width: 448rpx;
+  height: 272rpx;
+}
+image.recommendImage{
+  margin-top: 4rpx;
+  width: 448rpx;
+  height: 252rpx;
+  border: bisque solid;
+  /*border-radius:5% 10rpx ;  修改为这个出现四个角不一致的bug*/
+  border-top-right-radius:5% 10rpx ;
+  border-top-left-radius: 5% 10rpx;
+  border-bottom-right-radius: 5% 10rpx;
+  border-bottom-left-radius: 5% 10rpx;
+}

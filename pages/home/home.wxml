@@ -1,0 +1,44 @@
+<view>
+    <swiper indicator-dots="true" autoplay="true" class="homeSwiper">
+        <swiper-item wx:for="{{navigations}}" wx:key="articleId">
+            <navigator url="/pages/article/index?articleId={{item.articleId}}">
+                <image src="{{item.articleImageUrl}}" mode="widthFix" class="swiper"></image>
+                <text>{{item.articleId}}</text>
+            </navigator>
+        </swiper-item>
+    </swiper>
+</view>
+<i-panel hideBorder="true">
+  <block wx:for="{{cateList}}" wx:key="name">
+    <view class="categoryInfo">
+      <navigator url="/pages/goods/goods?cate=cate&cateName={{item.name}}">
+        <image src="{{item.imageSrc}}" class="categoryImage"></image>
+        <view class="categoryText">{{item.name}}</view>
+      </navigator>
+    </view>
+  </block>
+</i-panel>
+<i-panel>
+  <view class="recommendTitle">
+    <image src="../../images/icons/点赞.png" class="recommendTitleImage"></image>
+    <view class="recommendTitleText">每日推荐</view>
+  </view>
+</i-panel>
+<i-panel hideBorder="true">
+  <scroll-view scroll-x="true">
+      <view class="recommend">
+          <block wx:for="{{recommendList}}" wx:key="id">
+              <view class="recommendItem">
+                  <navigator url="/pages/goods/goods?cate=recommend&id={{item.id}}">
+                      <image src="{{item.imageUrl}}" class="recommendImage"></image>
+                  </navigator>
+              </view>
+          </block>
+      </view>
+  </scroll-view>
+</i-panel>
+<i-cell-group>
+    <i-cell title="农户信息" is-link url="/pages/farmers/farmers"></i-cell>
+    <i-cell title="当季蔬菜" is-link url="/pages/vegetablesNow/vegetablesNow"></i-cell>
+    <i-cell title="用户须知" is-link url="/pages/note/note"></i-cell>
+</i-cell-group>

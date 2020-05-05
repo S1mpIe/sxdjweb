@@ -1,0 +1,13 @@
+<view wx:for="{{articleList}}" wx:key="id" class="single">
+    <view class="singleArticle" bindtap="bindToArticle" data-id="{{item.id}}">
+        <view class="title">{{item.title}}</view>
+        <view class="image">
+            <image src="{{item.imageUrl}}" mode="widthFix" class="image"></image>
+        </view>
+        <view class="footer">
+            <view class="footerAuthor">
+                <view class="author">{{item.author}}</view>
+            </view>
+        </view>
+    </view>
+</view>

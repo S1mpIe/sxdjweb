@@ -1,0 +1,79 @@
+Page({
+    data: {
+        goodsId:0,
+        category:'',
+        imageUrl:'',
+        name:'',
+        number:0.0,
+        numberUnit:'',
+        origin:'',
+        originId:0,
+        price:0.0,
+        priceUnit:'',
+        selectNumber:0,
+        soldNumber:0
+    },
+    onLoad: function (options) {
+        this.setData({
+            goodsId:parseInt(options.id)
+        })
+        wx.getStorage({
+            key:"accessToken",
+            success:(res)=>{
+                console.log(this.goodsId)
+                wx.request({
+                    url:"http://www.s1mpie.top:8080/sxdj/goods",
+                    method:'get',
+                    header:{
+                        "accessToken":res.data
+                    },
+                    data:{
+                        'goodsId':this.data.goodsId
+                    },
+                    success:(e)=>{
+                        console.log(e);
+                        this.setData({
+                            category:e.data.goods.category,
+                            imageUrl:e.data.goods.imageUrl,
+                            name:e.data.goods.name,
+                            number:e.data.goods.number,
+                            numberUnit:e.data.goods.numberUnit,
+                            origin:e.data.goods.origin,
+                            originId:e.data.goods.originId,
+                            price:e.data.goods.price,
+                            priceUnit:e.data.goods.priceUnit,
+                            selectNumber:e.data.goods.selectNumber,
+                            soldNumber:e.data.goods.soldNumber,
+                        })
+                    }
+                })
+            }
+        })
+    },
+    changeSelectNumber(e){
+        wx.getStorage({
+            key:"accessToken",
+            success:(result => {
+                wx.request({
+                    url:"http://www.s1mpie.top:8080/sxdj/shoppingCart?id="+this.data.goodsId+"&number="+e.detail.value,
+                    method:'post',
+                    header:{
+                        'content-type': 'application/json',
+                        accessToken:result.data
+                    },dataType:'json',
+                    data:{
+                        id:this.data.goodsId,
+                        number:this.data.selectNumber
+                    },success:(res=>{
+                        console.log(result.data)
+                        if (res.data.status == 'success'){
+                            this.setData({
+                                selectNumber:e.detail.value
+                            })
+                        }
+                    })
+                })
+            })
+        })
+    }
+});

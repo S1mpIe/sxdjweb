@@ -1,0 +1,34 @@
+
+.row{
+    height: 48px;
+    width: 750rpx;
+    border-top: 1px solid #dddee1;
+    padding-top: 0;
+    letter-spacing: 1px
+}
+
+.rowText{
+    position: relative;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row ;
+    background: #fff;
+    align-items: center;
+    line-height: 1.4;
+    overflow: hidden;
+}
+.nameText{
+    font-size: 20px;
+    font-weight: 600;
+}
+.rowFooter{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 5px;
+}
+.priceText{
+    color: red;
+    font-weight: 600;
+}
+

@@ -1,0 +1,40 @@
+.single{
+    align-items: center;
+}
+.singleArticle{
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    margin-top: 10rpx;
+    display: flex;
+    flex-direction: column ;
+    border: 1px solid #dddee1;
+    border-radius: 5px;
+}
+view.image{
+    border-top: 1px solid #dddee1;
+    border-bottom: 1px solid #dddee1;
+    height: 406rpx;
+}
+image.image{
+    width: 728rpx;
+}
+.title{
+    height: 30px;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    background: #fff;
+}
+.footer{
+
+    background: #e2e2e2;
+}
+.author{
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 8px;
+    text-align: right;
+}

@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/farmers/farmers",
+    "pages/farmers/farmer/farmer",
+    "pages/home/vegetablesNow/vegetablesNow",
+    "pages/home/note/note",
+    "pages/home/home",
+    "pages/article/index",
+    "pages/register/register",
+    "pages/recommend/recommend",
+    "pages/shoppingCart/shoppingCart",
+    "pages/person/person",
+    "pages/logs/logs",
+    "pages/goods/goods",
+    "pages/goods/singleGoods/singleGoods"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "比鲜而食",
+
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#d81e06", 
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/icons/home2.png",
+      "selectedIconPath": "images/icons/home2.png"
+    },
+    {
+      "pagePath": "pages/recommend/recommend",
+      "text": "农业讲堂",
+      "iconPath": "images/icons/offBook.png",
+      "selectedIconPath": "images/icons/openedBook.png"
+    },
+    {
+      "pagePath": "pages/shoppingCart/shoppingCart",
+      "text": "购物车",
+      "iconPath": "images/icons/emptyShoppingCar.png",
+      "selectedIconPath": "images/icons/shoppingCar.png"
+    },{
+      "pagePath": "pages/person/person",
+      "text": "个人中心",
+      "iconPath": "images/icons/user.png",
+      "selectedIconPath": "images/icons/user.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
