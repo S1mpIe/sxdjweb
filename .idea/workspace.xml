@@ -2,100 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf415e49-1cc0-46c7-b295-e6393d0599a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/loading.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/article/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/article/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/article/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/article/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/farmers/farmer/farmer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/farmers/farmer/farmer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/farmers/farmer/farmer.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/farmers/farmer/farmer.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/audio-player/Audio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/audio-player/audio-player.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/audio-player/audio-player.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/audio-player/audio-player.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/audio-player/audio-player.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/audio-player/loading.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/decode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/decode.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/decode.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/decode.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/img/img.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/img/img.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/img/img.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/img/img.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/latex/latex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/latex/latex.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/latex/latex.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/latex/latex.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/markdown/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/markdown/markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/markdown/plugins/emoji.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/markdown/plugins/ins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/markdown/plugins/latex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/markdown/plugins/mark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/markdown/plugins/sub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/markdown/plugins/sup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/markdown/plugins/todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/markdown/plugins/yuml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/Parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/Tokenizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/domhandler/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/domhandler/node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/entities/decode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/entities/decode_codepoint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/entities/encode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/entities/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/entities/maps/decode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/entities/maps/entities.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/entities/maps/legacy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/entities/maps/xml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/parse/parse2/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/style/main.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/style/theme/dark.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/style/theme/light.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/table/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/table/table.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/table/table.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/table/table.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/todogroup/todogroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/todogroup/todogroup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/todogroup/todogroup.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/todogroup/todogroup.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/towxml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/towxml.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/towxml.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/towxml.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/yuml/yuml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/yuml/yuml.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/yuml/yuml.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/towxml/yuml/yuml.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/card/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/card/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/recommend/recommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/recommend/recommend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/recommend/recommend.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/recommend/recommend.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/recommend/recommend.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/recommend/recommend.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/register/register.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register/register.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +68,7 @@
       <workItem from="1588164492914" duration="8896000" />
       <workItem from="1588227317407" duration="13866000" />
       <workItem from="1588655076395" duration="5767000" />
+      <workItem from="1588664400768" duration="3901000" />
     </task>
     <servers />
   </component>
