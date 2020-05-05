@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf415e49-1cc0-46c7-b295-e6393d0599a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.js" afterDir="false" />
-    </list>
+    <list default="true" id="bf415e49-1cc0-46c7-b295-e6393d0599a3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,18 +65,34 @@
       <workItem from="1588164492914" duration="8896000" />
       <workItem from="1588227317407" duration="13866000" />
       <workItem from="1588655076395" duration="5767000" />
-      <workItem from="1588664400768" duration="3901000" />
+      <workItem from="1588664400768" duration="4244000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1588675263808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588675263808</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1142" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588661160058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1142" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588661160058" />
+    <state x="558" y="0" key="CommitChangelistDialog2" timestamp="1588675262642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588675262642" />
     <state x="1242" y="303" key="FileChooserDialogImpl" timestamp="1587799538496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -88,5 +101,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1588661147424" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1588675271620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588675271620" />
   </component>
 </project>
