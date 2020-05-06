@@ -1,7 +1,7 @@
 <view class="Title">
     <view class="TitleText">购物车</view>
 </view>
-<view>
+<scroll-view scroll-y="true" class="scrollView">
     <view  wx:for="{{goodsList}}" wx:key="id" class="singleGoods">
         <view class="singleInside">
             <view class="consumer">
@@ -11,6 +11,9 @@
                 </view>
             </view>
             <view class="goodsData">
+                <view>
+                    <radio class="radio" data-value="{{index}}" checked="{{selectList[index]}}" bindtap="handleRadio" color="red"></radio>
+                </view>
                 <view >
                     <image src="{{item.imageUrl}}" mode="widthFix" class="goodsImage"></image>
                 </view>
@@ -23,5 +26,16 @@
                 </view>
             </view>
         </view>
+    </view>
+</scroll-view>
+<view class="submitPanel">
+    <view>
+        <radio class="submitRadio" checked="{{selectNumber===selectList.length}}" bindtap="handleAllSelect" color="red"></radio>
+    </view>
+    <view>
+        ￥{{totalPrice}}
+    </view>
+    <view>
+        <button size="mini" type="warn" bindtap="submit">提交</button>
     </view>
 </view>

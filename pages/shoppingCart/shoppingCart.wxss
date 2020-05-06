@@ -1,11 +1,19 @@
 .Title{
     height: 100px;
     align-items: center;
+    border-bottom: solid #dddee1 1px;
+    border-top: solid #dddee1 1px;
+    display: flex;
+
 }
-.Title{
+.TitleText{
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 1;
+    margin-left: 15px;
+}
+.scrollView{
+    height: 790rpx;
 }
 .singleGoods{
     height: 200px;
@@ -17,9 +25,10 @@
     border: 1px solid #dddee1;
     border-radius: 5px;
 }
-.consumer{
+.consumerInside{
     display: flex;
     flex-direction: row;
+    margin: 10px;
 }
 
 .goodsData{
@@ -30,3 +39,20 @@
 .goodsImage{
     width: 150px;
 }
+.radio{
+    margin: 50px 10px;
+}
+.submitRadio{
+    margin: 15px 10px;
+}
+.submitPanel {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 750rpx;
+    bottom: 0px;
+    background: white;
+    border: #dddee1 solid 1px;
+}
+

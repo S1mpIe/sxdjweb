@@ -9,7 +9,7 @@ Page({
       key:"accessToken",
       success:(res)=>{
         wx.request({
-          url:"http://www.s1mpie.top:8080/sxdj/articles",
+          url:"https://www.s1mpie.top:453/sxdj/articles",
           method:'get',
           header:{
             accessToken:res.data
