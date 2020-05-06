@@ -10,7 +10,7 @@ Page({
         key:"accessToken",
         success:(result => {
             wx.request({
-                url:"http://www.s1mpie.top:8080/sxdj/article",
+                url:"https://www.s1mpie.top:453/sxdj/article",
                 method:'get',
                 header:{
                     accessToken:result.data

@@ -1,19 +1,17 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/home/home",
     "pages/farmers/farmers",
     "pages/farmers/farmer/farmer",
     "pages/home/vegetablesNow/vegetablesNow",
     "pages/home/note/note",
-    "pages/home/home",
     "pages/article/index",
-    "pages/register/register",
     "pages/recommend/recommend",
     "pages/shoppingCart/shoppingCart",
     "pages/person/person",
-    "pages/logs/logs",
     "pages/goods/goods",
-    "pages/goods/singleGoods/singleGoods"
+    "pages/goods/singleGoods/singleGoods",
+    "pages/order/pushOrder/pushOrder"
   ],
   "window": {
     "backgroundTextStyle": "light",

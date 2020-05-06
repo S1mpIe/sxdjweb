@@ -10,7 +10,7 @@ Page({
       key:"accessToken",
       success:(res) =>{
         wx.request({
-          url:"http://www.s1mpie.top:8080/sxdj/home/farmer",
+          url:"https://www.s1mpie.top:453/sxdj/home/farmer",
           method:"get",
           header: {
             accessToken: res.data
@@ -26,7 +26,7 @@ Page({
   },
   bindToFarmer(e){
     console.log(e);
-    var gId=e.currentTarget.dataset.id;
+    let gId=e.currentTarget.dataset.id;
     wx.navigateTo({
       url:"/pages/farmers/farmer/farmer?id=" + gId
     })

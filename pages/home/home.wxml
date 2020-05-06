@@ -39,6 +39,6 @@
 </i-panel>
 <i-cell-group>
     <i-cell title="农户信息" is-link url="/pages/farmers/farmers"></i-cell>
-    <i-cell title="当季蔬菜" is-link url="/pages/vegetablesNow/vegetablesNow"></i-cell>
-    <i-cell title="用户须知" is-link url="/pages/note/note"></i-cell>
+    <i-cell title="当季蔬菜" is-link url="/pages/home/vegetablesNow/vegetablesNow"></i-cell>
+    <i-cell title="用户须知" is-link url="/pages/home/note/note"></i-cell>
 </i-cell-group>

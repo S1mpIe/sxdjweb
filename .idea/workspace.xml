@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf415e49-1cc0-46c7-b295-e6393d0599a3" name="Default Changelist" comment="" />
+    <list default="true" id="bf415e49-1cc0-46c7-b295-e6393d0599a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/article/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/article/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/farmers/farmer/farmer.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/farmers/farmer/farmer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/farmers/farmers.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/farmers/farmers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/goods/goods.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods/goods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/vegetablesNow/vegetablesNow.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/vegetablesNow/vegetablesNow.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/logs/logs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/logs/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/logs/logs.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/logs/logs.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/note/note.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/note/note.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/note/note.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/note/note.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/recommend/recommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/recommend/recommend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register/register.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register/register.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/register/register.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vegetablesNow/vegetablesNow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vegetablesNow/vegetablesNow.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vegetablesNow/vegetablesNow.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vegetablesNow/vegetablesNow.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,17 +73,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\WeChatProjects\sxdj\pages\order\pushNewOrder" />
+      <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\pages\farmers\farmer" />
+      <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\pages" />
       <recent name="C:\Users\HP\WeChatProjects\miniprogram-1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\pages\farmers\farmer" />
-      <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\images" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -66,6 +109,7 @@
       <workItem from="1588227317407" duration="13866000" />
       <workItem from="1588655076395" duration="5767000" />
       <workItem from="1588664400768" duration="4244000" />
+      <workItem from="1588744580885" duration="11985000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1588675263808</created>
@@ -93,10 +137,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="558" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588675262642" />
-    <state x="1242" y="303" key="FileChooserDialogImpl" timestamp="1587799538496">
+    <state x="1242" y="303" key="FileChooserDialogImpl" timestamp="1588744852592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1242" y="303" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587799538496" />
+    <state x="1242" y="303" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588744852592" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1588661147424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

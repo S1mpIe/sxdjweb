@@ -15,7 +15,7 @@ Page({
         switch (query.cate) {
           case 'cate':{
             wx.request({
-              url:"http://www.s1mpie.top:8080/sxdj/home/categoryGoods",
+              url:"https://www.s1mpie.top:453/sxdj/home/categoryGoods",
               dataType:"json",
               header:{
                 accessToken:res.data
@@ -35,7 +35,7 @@ Page({
           break;
           case 'recommend':{
             wx.request({
-              url:"http://www.s1mpie.top:8080/sxdj/home/recommendGoods",
+              url:"https://www.s1mpie.top:453/sxdj/home/recommendGoods",
               dataType:"json",
               header:{
                 accessToken:res.data

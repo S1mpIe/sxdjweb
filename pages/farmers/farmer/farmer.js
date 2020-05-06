@@ -9,7 +9,7 @@ Page({
             key:"accessToken",
             success:(res)=>{
                 wx.request({
-                    url:"http://www.s1mpIe.top:8080/sxdj/farmer",
+                    url:"https://www.s1mpIe.top:453/sxdj/farmer",
                     method:'get',
                     header:{
                         accessToken:res.data
@@ -25,7 +25,7 @@ Page({
                     }
                 });
                 wx.request({
-                    url:'http://www.s1mpie.top:8080/sxdj/farmer/goods',
+                    url:'https://www.s1mpie.top:453/sxdj/farmer/goods',
                     method:'get',
                     header:{
                         accessToken:res.data

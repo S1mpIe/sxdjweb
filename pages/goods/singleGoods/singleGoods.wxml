@@ -1,18 +1,18 @@
 <view >
     <view class="goodsImage">
-        <image src="{{imageUrl}}" mode="widthFix"></image>
+        <image src="{{goods.imageUrl}}" mode="widthFix"></image>
     </view>
     <view class="goodsInfo">
         <view class="row">
-            <view class="rowText nameText">{{name}}</view>
+            <view class="rowText nameText">{{goods.name}}</view>
         </view>
         <view class="row">
             <view class="rowText">
                 <view class="rowTitle">价格:</view>
                 <view class="rowFooter">
-                    <view class="priceText">{{price}}</view>
+                    <view class="priceText">{{goods.price}}</view>
                     <view class="priceUnitText">/</view>
-                    <view class="priceUnitText">{{priceUnit}}</view>
+                    <view class="priceUnitText">{{goods.priceUnit}}</view>
                 </view>
             </view>
         </view>
@@ -20,8 +20,8 @@
             <view class="rowText">
                 <view class="rowTitle">库存:</view>
                 <view class="rowFooter">
-                    <view class="numberText">{{number}}</view>
-                    <view class="numberUnitText">{{numberUnit}}</view>
+                    <view class="numberText">{{goods.number}}</view>
+                    <view class="numberUnitText">{{goods.numberUnit}}</view>
                 </view>
             </view>
         </view >
@@ -29,7 +29,7 @@
             <view class="rowText">
                 <view class="rowTitle">已售:</view>
                 <view class="rowFooter">
-                    <view class="soldNumber">{{soldNumber}}</view>
+                    <view class="soldNumber">{{goods.soldNumber}}</view>
                 </view>
             </view>
         </view>
@@ -37,7 +37,7 @@
             <view class="rowText">
                 <view class="rowTitle">已添加入购物车:</view>
                 <view class="rowFooter">
-                    <i-input-number value="{{selectNumber}}" min="0" max="{{number}}" bindchange="changeSelectNumber">
+                    <i-input-number value="{{goods.selectNumber}}" min="0" max="{{goods.number}}" bindchange="changeSelectNumber">
                     </i-input-number>
                 </view>
             </view>
