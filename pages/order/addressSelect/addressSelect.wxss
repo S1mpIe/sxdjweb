@@ -1,0 +1,24 @@
+.panel{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px #dddee1;
+}
+.single{
+    height: 100px;
+    align-items: center;
+    margin-top: 10px;
+}
+.singleInside{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 15px;
+}
+.addButton{
+    position: absolute;
+    left: 15px;
+}
+.submitButton{
+    position: absolute;
+    right: 15px;
+}

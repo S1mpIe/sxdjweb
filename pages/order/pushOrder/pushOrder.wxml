@@ -1,0 +1,24 @@
+<view class="receiveData" bindtap="changeReceive">
+    <view wx:if="{{selectAddressId === -1}}" class="noSelectReceive">请选择你的收获信息</view>
+    <view wx:else>{{pointAddress}} {{pointPhone}}  {{receiver}} {{receiverPhone}}</view>
+</view>
+<view wx:for="{{orderGoods}}" wx:key="id">
+    <view class="insideSingle">
+        <view class="imageBorder">
+            <image src="{{item.imageUrl}}" class="image" mode="widthFix"></image>
+        </view>
+        <view class="goodsTextData">
+            <view class="goodsName">{{item.name}}</view>
+            <view class="goodsPrice">{{item.price}}元</view>
+            <view class="goodsNumber">{{item.selectNumber}}/{{item.numberUnit}}</view>
+        </view>
+    </view>
+</view>
+<view class="submitPanel">
+    <view class="submitPanelInside">
+        <view>共{{orderGoods.length}}件商品</view>
+        <view>{{totalPrice}}</view>
+        <button style="width: 120px;height: 40px;" bindtap="handleSubmit">提交订单</button>
+    </view>
+</view>
+<i-toast id="toast" />

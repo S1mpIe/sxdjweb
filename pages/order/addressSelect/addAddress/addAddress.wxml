@@ -1,0 +1,17 @@
+<view wx:if="{{!isSelected}}">
+    <i-cell  title="{{isSelectLocation == false ? '查看附近自提点' : '请选择一个自提点'}}" is-link bind:click="toMap">
+    </i-cell>
+    <view wx:for="{{extractPoints}}" wx:key="id" class="address" bindtap="selectAddress" data-id="{{item.id}}" data-index="{{index}}">
+        <view class="singleInside">{{item.name}}</view>
+        <view class="singleInside">{{item.address}}</view>
+        <view class="singleInside">联系电话:{{item.phoneNumber}}</view>
+    </view>
+</view>
+<view wx:else>
+    <i-cell title="已选择你的自提点" only-tap-footer="true" label="{{extractPoints[selectPointIndex].address}}" value="重新选择" is-link bind:click="toMap">
+    </i-cell>
+    <i-input value="{{receiverPhone}}" type="number" right title="收货人电话号码" mode="wrapped" bindchange="handleChangePhone"/>
+    <i-input value="{{receiver}}" right title="收货人姓名" mode="wrapped" bindchange="handleChangeReceiver"/>
+    <button class="addButton" style="width: 100px;height: 40px" bindtap="handleSubmit">提交</button>
+</view>
+<i-toast id="toast" />

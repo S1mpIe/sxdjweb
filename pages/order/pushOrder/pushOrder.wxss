@@ -1,0 +1,54 @@
+.receiveData{
+    border-bottom: solid #dddee1 1px;
+    margin: 0 ;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background: honeydew;
+}
+.noSelectReceive{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1;
+}
+.insideSingle{
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 15px;
+    border: 1px solid #dddee1;
+    border-radius: 5px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px;
+}
+.goodsTextData{
+    display: flex;
+    flex-direction: column;
+}
+.goodsName{
+    margin-top: 10px;
+}
+.goodsPrice{
+    margin-top: 10px;
+}
+.goodsNumber{
+    margin-top: 10px;
+}
+.submitPanel{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin: 10px 15px;
+    border: 1px solid #dddee1;
+    border-radius: 5px;
+}
+.submitPanelInside{
+    margin:10px 15px;
+    display: flex;
+    flex-direction: row;
+    line-height: 100%;
+}

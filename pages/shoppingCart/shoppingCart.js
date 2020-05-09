@@ -1,39 +1,44 @@
-// pages/shoppingCart/shoppingCart.js
+const { $Toast } = require('../../dist/base/index');
 Page({
   data:{
     accessToken:'',
     goodsList:[],
     selectList:[],
     totalPrice:0,
-    selectNumber:0
+    selectNumber:-1
+  },
+  onLoad(query){
+    this.setData({
+      accessToken:wx.getStorageSync("accessToken")
+    })
   },
   onShow(query) {
-    wx.getStorage({
-      key:"accessToken",
-      success:(result => {
+    console.log("in...")
+    wx.request({
+      url:'https://www.s1mpie.top:453/sxdj/shoppingCart',
+      method:'get',
+      header:{
+        accessToken:this.data.accessToken
+      },
+      success:(res=>{
+        var midSelectList=new Array(res.data.goodsList.length);
+        midSelectList.fill(false);
+        console.log("Inside,,,")
         this.setData({
-          accessToken:result.data
+          goodsList:res.data.goodsList,
+          selectList:midSelectList,
+          selectNumber:-1
         });
-        wx.request({
-          url:'https://www.s1mpie.top:453/sxdj/shoppingCart',
-          method:'get',
-          header:{
-            accessToken:result.data
-          },
-          success:(res=>{
-            var midSelectList=new Array(res.data.goodsList.length);
-            midSelectList.fill(false);
-            this.setData({
-              goodsList:res.data.goodsList,
-              selectList:midSelectList
-            });
-            wx.setStorage({
-              key:"shoppingCart",
-              data:res.data.goodsList
-            })
-          })
-        });
+        wx.setStorage({
+          key:"shoppingCart",
+          data:res.data.goodsList,
+        })
       })
+    });
+  },
+  bindToGoods(query){
+    wx.navigateTo({
+      url:'/pages/goods/singleGoods/singleGoods?id='+query.currentTarget.dataset.id
     })
   },
   deleteThisGoods(e){
@@ -100,39 +105,50 @@ Page({
     this.flushTotalPrice();
   },
   submit(e){
-    let orderList=[];
-    let cart=this.data.goodsList;
-    let selected=this.data.selectList;
-    let length = this.data.goodsList.length;
-    for (let i = length-1; i >=0; i--) {
-      if(this.data.selectList[i]){
-        orderList.push(this.data.goodsList[i]);
-        cart.splice(i,1);
-        selected.splice(i,1);
+    if (this.data.goodsList.length == 0){
+      $Toast({
+        content: '请添加至少一件商品',
+        type: 'warning'
+      });
+    }else {
+      let orderList=[];
+      let cart=this.data.goodsList;
+      let selected=this.data.selectList;
+      let length = this.data.goodsList.length;
+      let number = this.data.selectNumber
+      for (let i = length-1; i >=0; i--) {
+        if(this.data.selectList[i]){
+          orderList.push(this.data.goodsList[i]);
+          cart.splice(i,1);
+          selected.splice(i,1);
+          number--;
+        }
       }
-    }
-    wx.setStorage({
-      key:"order",
-      data:orderList,
-      success:(res => {
-        this.flushCart(cart,selected);
-        wx.navigateTo({
-          url:'/pages/order/pushOrder/pushOrder'
+      wx.setStorage({
+        key:"order",
+        data:orderList,
+        success:(res => {
+          this.flushCart(cart,selected);
+          this.setData({selectedNumber:number})
+          wx.navigateTo({
+            url:'/pages/order/pushOrder/pushOrder'
+          })
         })
       })
-    })
+    }
   },
   flushCart(Cart,selected){
     this.setData({
       goodsList:Cart,
       selectList:selected
-    })
+    });
+    this.flushTotalPrice();
   },
   flushTotalPrice(){
     let total=0;
     for (let i = 0; i < this.data.goodsList.length; i++) {
       if (this.data.selectList[i]){
-        total += this.data.goodsList[i].selectNumber*this.data.goodsList[i].price
+        total = ((this.data.goodsList[i].selectNumber * 100)*(this.data.goodsList[i].price*100) + total *10000 )/10000
       }
     }
     this.setData({

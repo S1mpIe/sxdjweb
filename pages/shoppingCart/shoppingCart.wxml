@@ -15,10 +15,10 @@
                     <radio class="radio" data-value="{{index}}" checked="{{selectList[index]}}" bindtap="handleRadio" color="red"></radio>
                 </view>
                 <view >
-                    <image src="{{item.imageUrl}}" mode="widthFix" class="goodsImage"></image>
+                    <image src="{{item.imageUrl}}" mode="widthFix" class="goodsImage" bindtap="bindToGoods" data-id="{{item.id}}"></image>
                 </view>
                 <view>
-                    <view>{{item.name}}</view>
+                    <view bindtap="bindToGoods" data-id="{{item.id}}">{{item.name}}</view>
                     <view>
                         <view>￥ {{item.price}}</view>
                         <i-input-number value="{{item.selectNumber}}" min="1" max="{{item.number}}" bindchange="handleChange" data-index="{{index}}" />
@@ -32,10 +32,11 @@
     <view>
         <radio class="submitRadio" checked="{{selectNumber===selectList.length}}" bindtap="handleAllSelect" color="red"></radio>
     </view>
-    <view>
+    <view class="totalPrice">
         ￥{{totalPrice}}
     </view>
-    <view>
+    <view class="submitButton">
         <button size="mini" type="warn" bindtap="submit">提交</button>
     </view>
 </view>
+<i-toast id="toast" />

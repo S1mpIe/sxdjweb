@@ -3,6 +3,7 @@
     "i-input-number": "../../dist/input-number/index",
     "i-radio-group": "../../dist/radio-group/index",
     "i-radio": "../../dist/radio/index",
-    "i-panel": "../../dist/panel/index"
+    "i-panel": "../../dist/panel/index",
+    "i-toast": "../../dist/toast/index"
   }
 }

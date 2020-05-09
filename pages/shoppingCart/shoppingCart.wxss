@@ -55,4 +55,11 @@
     background: white;
     border: #dddee1 solid 1px;
 }
+.submitButton{
+    position: absolute;
+    display: flex;
+    right: 20px;
+    align-items: center;
+    height: 60px;
+}
 

@@ -1,0 +1,17 @@
+<view class="panel">
+    <button class="addButton" style="width: 100px;height: 40px" bindtap="handleAdd">增加</button>
+    <button class="submitButton" style="width: 100px;height: 40px" bindtap="handleSubmit">确定</button>
+</view>
+<view wx:for="{{addresses}}" wx:key="id" class="single">
+    <view class="singleInside">
+        <radio checked="{{item.id == selectId}}" bindtap="selectChange" data-id="{{item.id}}" data-index="{{index}}"></radio>
+        <view>
+            <view>{{item.name}}  {{item.phoneNumber}}</view>
+            <view>
+                <view>{{item.point.address}}</view>
+                <view>{{item.point.phoneNumber}}</view>
+            </view>
+        </view>
+    </view>
+</view>
+<i-toast id="toast" />

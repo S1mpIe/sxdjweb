@@ -1,4 +1,6 @@
 {
   "usingComponents": {
+    "i-toast": "../../../dist/toast/index",
+    "i-panel": "../../../dist/panel/index"
   }
 }

@@ -2,47 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf415e49-1cc0-46c7-b295-e6393d0599a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addAddress/addAddress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addAddress/addAddress.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addAddress/addAddress.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addAddress/addAddress.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addressSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addressSelect.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addressSelect.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addressSelect.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/article/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/article/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/farmers/farmer/farmer.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/farmers/farmer/farmer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/farmers/farmers.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/farmers/farmers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/goods/goods.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods/goods.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/vegetablesNow/vegetablesNow.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/vegetablesNow/vegetablesNow.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/logs/logs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/logs/logs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/logs/logs.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/logs/logs.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/note/note.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/note/note.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/note/note.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/note/note.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/recommend/recommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/recommend/recommend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/register/register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/register/register.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/register/register.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/register/register.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/person/person.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/person/person.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/vegetablesNow/vegetablesNow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/vegetablesNow/vegetablesNow.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/vegetablesNow/vegetablesNow.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/vegetablesNow/vegetablesNow.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +42,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ayRiDpdpCUCpm21HbV6EMpygOF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -77,14 +58,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\pages" />
+      <recent name="C:\Users\HP\WeChatProjects\miniprogram-1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\WeChatProjects\sxdj\pages\order\pushNewOrder" />
       <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\pages\farmers\farmer" />
       <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\pages" />
-      <recent name="C:\Users\HP\WeChatProjects\miniprogram-1" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -109,7 +90,9 @@
       <workItem from="1588227317407" duration="13866000" />
       <workItem from="1588655076395" duration="5767000" />
       <workItem from="1588664400768" duration="4244000" />
-      <workItem from="1588744580885" duration="11985000" />
+      <workItem from="1588744580885" duration="12932000" />
+      <workItem from="1588829443319" duration="21985000" />
+      <workItem from="1588916572033" duration="17335000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1588675263808</created>
@@ -129,10 +112,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="575" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588846386937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="575" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588846386937" />
     <state x="1142" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588661160058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1142" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588661160058" />
+    <state x="1035" y="418" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588840711555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1035" y="418" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588840711555" />
     <state x="558" y="0" key="CommitChangelistDialog2" timestamp="1588675262642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
