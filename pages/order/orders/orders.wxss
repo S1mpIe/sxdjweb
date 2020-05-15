@@ -1,0 +1,81 @@
+page{
+    background: #f8f8f9;
+}
+.search {
+    height: 35px;
+    background: #f8f8f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.searchImage {
+    width: 25px;
+    margin-top: 3px;
+}
+.searchText{
+    margin-left:  10px;
+    width: 640rpx ;
+    height: 30px;
+    inline-size: 100%;
+}
+.searchInfo {
+    width: 730rpx;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    border-radius: 20px;
+    border: 1px #ed3f14 solid;
+    height: 30px;
+}
+.orderStatus{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.singleOrder{
+    background: white;
+    margin: 12px 12px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.singleGoods{
+    display: flex;
+    flex-direction: row;
+}
+.goodsImage{
+    width: 50px;
+    margin: 10px 12px;
+}
+.goodsText{
+    margin: 10px 12px;
+    display: flex;
+    flex-direction: column;
+}
+.goodsName{
+    font: 25px #495060;
+}
+.goodsPrice{
+    font: 25px #de3f14;
+    font-weight: 700;
+}
+.goodsNumber{
+    font: 10px #bbbec4;
+    font-weight: 300;
+}
+.orderData{
+    border-top: 1px solid #dddee1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.singleData{
+    display: flex;
+    flex-direction: row;
+}
+.dataTitle{
+     margin-left: 12px;
+ }
+.dataFooter{
+    position: absolute;
+    right: 25px;
+}

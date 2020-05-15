@@ -2,26 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf415e49-1cc0-46c7-b295-e6393d0599a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addAddress/addAddress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addAddress/addAddress.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addAddress/addAddress.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addAddress/addAddress.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addressSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addressSelect.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addressSelect.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/order/addressSelect/addressSelect.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/bag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/orders/orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/orders/orders.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/orders/orders.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/order/orders/orders.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/person/account/account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/person/account/account.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/person/account/account.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/person/account/account.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/person/extract/applyNewExtract/applyNewExtract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/person/extract/applyNewExtract/applyNewExtract.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/person/extract/applyNewExtract/applyNewExtract.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/person/extract/applyNewExtract/applyNewExtract.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/goods/singleGoods/singleGoods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/order/addressSelect/addressSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order/addressSelect/addressSelect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/order/pushOrder/pushOrder.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/person/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/person/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/person/person.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/person/person.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/person/person.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/person/person.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shoppingCart/shoppingCart.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/person/person.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/person/person.wxss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +62,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\pages" />
-      <recent name="C:\Users\HP\WeChatProjects\miniprogram-1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\WeChatProjects\sxdj\pages\person\extract" />
       <recent name="C:\Users\HP\WeChatProjects\sxdj\pages\order\pushNewOrder" />
       <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\pages\farmers\farmer" />
       <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\WeChatProjects\sxdj\images\icons" />
+      <recent name="C:\Users\HP\WeChatProjects\sxdj\images" />
+      <recent name="C:\Users\HP\WeChatProjects\miniprogram-1\pages" />
+      <recent name="C:\Users\HP\WeChatProjects\miniprogram-1" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -93,6 +105,10 @@
       <workItem from="1588744580885" duration="12932000" />
       <workItem from="1588829443319" duration="21985000" />
       <workItem from="1588916572033" duration="17335000" />
+      <workItem from="1589347054700" duration="6384000" />
+      <workItem from="1589433118952" duration="18373000" />
+      <workItem from="1589523338218" duration="51000" />
+      <workItem from="1589523614191" duration="20449000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1588675263808</created>
@@ -105,7 +121,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
@@ -120,10 +136,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1142" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588661160058" />
-    <state x="1035" y="418" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588840711555">
+    <state x="1035" y="279" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589539518213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1035" y="418" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588840711555" />
+    <state x="1035" y="279" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589539518213" />
     <state x="558" y="0" key="CommitChangelistDialog2" timestamp="1588675262642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -132,6 +148,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1242" y="303" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588744852592" />
+    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1589553230141">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="263" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589553230141" />
+    <state x="368" y="185" key="SettingsEditor" timestamp="1589523916674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="368" y="185" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589523916674" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1588661147424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

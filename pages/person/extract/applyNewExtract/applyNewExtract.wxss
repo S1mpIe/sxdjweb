@@ -1,0 +1,44 @@
+page{
+    background: #f0f0f1;
+}
+.select{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #2d8cf0;
+    color: white;
+}
+.footer{
+    width: 15px;
+    position: absolute;
+    right: 20px;
+}
+.mapInfo{
+    margin-left: 18px;
+}
+.applyButton{
+    margin-top: 18px;
+    background: #2d8cf0 ;
+    color: white;
+}
+.input{
+    margin-top: 18px;
+    margin-left: 14px;
+    margin-right: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+}
+.inputTitle{
+    min-width: 65px;
+    margin: 15px 15px;
+}
+.inputInfo{
+    text-align: right;
+    right: 25px;
+    position: absolute;
+    width: 250px;
+}

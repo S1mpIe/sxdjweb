@@ -13,7 +13,11 @@
     "pages/goods/singleGoods/singleGoods",
     "pages/order/pushOrder/pushOrder",
     "pages/order/addressSelect/addressSelect",
-    "pages/order/addressSelect/addAddress/addAddress"
+    "pages/order/addressSelect/addAddress/addAddress",
+    "pages/order/orders/orders",
+    "pages/person/account/account",
+    "pages/person/extract/extract",
+    "pages/person/extract/applyNewExtract/applyNewExtract"
   ],
   "window": {
     "backgroundTextStyle": "light",

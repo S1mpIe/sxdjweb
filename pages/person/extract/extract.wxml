@@ -1,0 +1,45 @@
+<view wx:if="{{!isApply}}" class="apply">
+    <view class="applyText">您还没有自提点呢！</view>
+    <button class="applyButton" style="width: 100px;height: 40px" bindtap="handleApply">申请</button>
+</view>
+<view wx:else>
+    <view class="pointInfo">
+        <view>{{point.name}}</view>
+        <view>{{point.address}}</view>
+    </view>
+    <i-tabs current="{{current}}" color="#f759ab" bindchange="handleChange">
+        <i-tab key="tab1" title="待发货"></i-tab>
+        <i-tab key="tab2" title="待提货"></i-tab>
+        <i-tab key="tab3" title="已完成"></i-tab>
+    </i-tabs>
+    <view wx:for="{{showOrders}}" wx:key="id" class="singleOrder">
+        <view wx:for="{{item.goods}}" wx:key="goodsId" wx:for-item="iitem" wx:for-index="iindex" class="singleGoods">
+            <image src="{{iitem.imageUrl}}" mode="widthFix" class="goodsImage"></image>
+            <view class="goodsText">
+                <view class="goodsName">{{iitem.name}}</view>
+                <view class="goodsPrice">{{iitem.goodsPrice}}</view>
+                <view class="goodsNumber">x{{iitem.goodsNumber}}</view>
+            </view>
+        </view>
+        <view class="orderData">
+            <view class="singleData">
+                <view class="dataTitle">支付金额</view>
+                <view class="dataFooter">{{item.pay}}</view>
+            </view>
+            <view class="singleData">
+                <view class="dataTitle">提货人</view>
+                <view class="dataFooter">{{item.receiver}}</view>
+            </view>
+            <view class="singleData">
+                <view class="dataTitle">提货地址</view>
+                <view class="dataFooter">{{item.extractAddress}}</view>
+            </view>
+            <view wx:if="{{current == 'tab1'}}">
+                <button style="margin-top:10px;width: 180px;height: 40px" bindtap="handleShow" data-id="{{item.id}}" data-index="{{index}}">确认到达自提点</button>
+            </view>
+        </view>
+    </view>
+</view>
+<i-modal visible="{{ visible }}" bind:ok="handleConfirm" bind:cancel="handleClose">
+    <view>您确定要收货吗？</view>
+</i-modal>

@@ -1,0 +1,47 @@
+<view class="search">
+    <view class="searchInfo">
+        <input class="searchText" style="width: 644rpx" value="" placeholder="搜索订单" bindfocus="inputValue" bindblur="loseFocus"></input>
+        <image src="../../../images/icons/search.png" mode="widthFix" class="searchImage"></image>
+    </view>
+</view>
+<view wx:for="{{showList}}" wx:key="id" class="singleOrder">
+        <i-steps current="{{current}}" i-class="orderStatus">
+            <i-step>
+                <view slot="title">
+                    待发货
+                </view>
+            </i-step>
+            <i-step>
+                <view slot="title">
+                    待提货
+                </view>
+            </i-step>
+            <i-step>
+                <view slot="title">
+                    已完成
+                </view>
+            </i-step>
+        </i-steps>
+    <view wx:for="{{item.goods}}" wx:key="goodsId" wx:for-item="iitem" wx:for-index="iindex" class="singleGoods">
+        <image src="{{iitem.imageUrl}}" mode="widthFix" class="goodsImage"></image>
+        <view class="goodsText">
+            <view class="goodsName">{{iitem.name}}</view>
+            <view class="goodsPrice">{{iitem.goodsPrice}}</view>
+            <view class="goodsNumber">x{{iitem.goodsNumber}}</view>
+        </view>
+    </view>
+    <view class="orderData">
+        <view class="singleData">
+            <view class="dataTitle">支付金额</view>
+            <view class="dataFooter">{{item.pay}}</view>
+        </view>
+        <view class="singleData">
+            <view class="dataTitle">提货人</view>
+            <view class="dataFooter">{{item.receiver}}</view>
+        </view>
+        <view class="singleData">
+            <view class="dataTitle">提货地址</view>
+            <view class="dataFooter">{{item.extractAddress}}</view>
+        </view>
+    </view>
+</view>

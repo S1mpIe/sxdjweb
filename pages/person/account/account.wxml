@@ -1,0 +1,11 @@
+<view class="balance">
+    <view class="balanceTitle">账户余额:</view>
+    <view class="balanceInfo">{{balance}}</view>
+</view>
+<view wx:for="{{details}}" class="singleDetail">
+    <view class="info">
+        <view class="cause">{{item.cause}}</view>
+        <view class="change">{{item.change}}</view>
+    </view>
+    <view class="footer">{{item.time}}</view>
+</view>

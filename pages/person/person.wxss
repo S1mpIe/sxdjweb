@@ -1,1 +1,76 @@
-/* pages/person/person.wxss */
+.background{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    background-size:100% 100%;
+    z-index: -1;
+}
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: #495060;
+}
+.order{
+    border: 1px solid #dddee1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+    background: white;
+}
+.orderTitle{
+    padding: 10px 15px;
+    border-bottom: 1px solid #dddee1;
+}
+.orderList{
+    display: flex;
+    flex-direction: row;
+}
+.singleOrder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    width: 230rpx;
+}
+.image{
+    width: 50px;
+    height: 50px;
+}
+.sundryInfo{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dddee1;
+    border-radius: 4px;
+    background: white;
+}
+.singleInfo{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #dddee1;
+}
+.infoTitle{
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.footer{
+    width: 15px;
+    position: absolute;
+    right: 25px;
+}

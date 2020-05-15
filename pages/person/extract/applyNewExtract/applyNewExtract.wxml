@@ -1,0 +1,29 @@
+<view class="select" bindtap="selectInMap">
+    <view wx:if="{{!isSelectMap}}" class="mapInfo">请先设置自提点位置</view>
+    <view wx:else class="mapInfo">{{location.name}}</view>
+    <image src="../../../../images/icons/footer.png" mode="widthFix" class="footer"></image>
+</view>
+<form bindsubmit="apply">
+    <view class="input">
+        <view class="inputTitle">姓名</view>
+        <input name="owner" class="inputInfo" ></input>
+    </view>
+    <view class="input">
+        <view class="inputTitle">电话号码</view>
+        <input name="phoneNumber" type="number" class="inputInfo" ></input>
+    </view>
+    <view class="input">
+        <view class="inputTitle">身份证号</view>
+        <input name="idNumber" type="idcard" class="inputInfo" ></input>
+    </view>
+    <view class="input">
+        <view class="inputTitle">自提点名称</view>
+        <input name="name" class="inputInfo" ></input>
+    </view>
+    <view class="input">
+        <view class="inputTitle">面积</view>
+        <input name="area" type="number" class="inputInfo" ></input>
+    </view>
+    <button class="applyButton" style="width: 100px;height: 40px" form-type="submit">申请</button>
+</form>
+<i-toast id="toast" />

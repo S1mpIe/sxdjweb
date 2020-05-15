@@ -4,13 +4,19 @@ Page({
         accessToken:'',
         selectId:-1,
         selectIndex:-1,
-        addresses:[]
+        addresses:[],
     },
     onLoad: function (options) {
         this.setData({
             accessToken:wx.getStorageSync("accessToken"),
-            selectId:options.id
+            selectId:options.id,
         });
+        let mid = wx.getStorageSync("extract");
+        if(mid != undefined){
+            this.setData({
+                selectId:mid.id
+            })
+        }
     },
     onShow() {
         wx.request({
@@ -44,6 +50,7 @@ Page({
                 type: 'warning'
             });
         }else{
+            wx.setStorageSync("extract",this.data.addresses[this.data.selectIndex]);
             $Toast({
                 content: '设置成功',
                 type: 'success'

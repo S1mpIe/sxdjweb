@@ -1,0 +1,75 @@
+page{
+    background: #f1f1f2;
+}
+.apply{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 225px;
+    height: 200px;
+    margin: 75px 75px;
+    background: white;
+    border-radius: 8px;
+}
+.applyText{
+    margin-top: 40px;
+    margin-left: 18px;
+    font-size: 20px;
+}
+.applyButton{
+    margin-top: 44px;
+    background: #2d8cf0;
+    color: white;
+}
+.pointInfo{
+    height: 80px;
+    background: white;
+}
+.singleOrder{
+    background: white;
+    margin: 12px 12px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.singleGoods{
+    display: flex;
+    flex-direction: row;
+}
+.goodsImage{
+    width: 50px;
+    margin: 10px 12px;
+}
+.goodsText{
+    margin: 10px 12px;
+    display: flex;
+    flex-direction: column;
+}
+.goodsName{
+    font: 25px #495060;
+}
+.goodsPrice{
+    font: 25px #de3f14;
+    font-weight: 700;
+}
+.goodsNumber{
+    font: 10px #bbbec4;
+    font-weight: 300;
+}
+.orderData{
+    border-top: 1px solid #dddee1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.singleData{
+    display: flex;
+    flex-direction: row;
+}
+.dataTitle{
+    margin-left: 12px;
+}
+.dataFooter{
+    position: absolute;
+    right: 25px;
+}

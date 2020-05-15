@@ -1,1 +1,48 @@
-
+<!--背景图-->
+<image class="background" src="../../images/person.png" mode="aspectFill"></image>
+<!--用户头像-->
+<view class="userinfo">
+    <block>
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+</view>
+<!--订单-->
+<view class="order">
+    <view class="orderTitle">我的订单</view>
+    <view class="orderList">
+        <view class="singleOrder" bindtap="showOrders" data-value="待发货">
+            <image src="../../images/icons/wallet.png" class="image" mode="widthFix"></image>
+            <view>待发货</view>
+        </view>
+        <view class="singleOrder" bindtap="showOrders" data-value="待提货">
+            <image src="../../images/icons/bag.png" class="image" mode="widthFix"></image>
+            <view>待提货</view>
+        </view>
+        <view class="singleOrder" bindtap="showOrders" data-value="已完成">
+            <image src="../../images/icons/block.png" class="image" mode="widthFix"></image>
+            <view>历史订单</view>
+        </view>
+    </view>
+</view>
+<!--杂项-->
+<view class="sundry">
+    <view class="sundryInfo">
+        <view class="singleInfo" bindtap="navigate" data-goal="account">
+            <view class="infoTitle">我的钱包</view>
+            <image src="../../images/icons/footer.png" class="footer" mode="widthFix"></image>
+        </view>
+        <view class="singleInfo" bindtap="navigate" data-goal="extract">
+            <view class="infoTitle">我的自提点</view>
+            <image src="../../images/icons/footer.png" class="footer" mode="widthFix"></image>
+        </view>
+        <view class="singleInfo" bindtap="navigate" data-goal="team">
+            <view class="infoTitle">我的购物团队</view>
+            <image src="../../images/icons/footer.png" class="footer" mode="widthFix"></image>
+        </view>
+        <view class="singleInfo" bindtap="navigate" data-goal="solder">
+            <view class="infoTitle">我是卖家</view>
+            <image src="../../images/icons/footer.png" class="footer" mode="widthFix"></image>
+        </view>
+    </view>
+</view>

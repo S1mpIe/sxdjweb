@@ -70,7 +70,6 @@ Page({
                         content: '订单提交成功',
                         type: 'success'
                     });
-                    Thread.sleep(1000)
                     wx.switchTab({
                         url:'/pages/shoppingCart/shoppingCart'
                     })

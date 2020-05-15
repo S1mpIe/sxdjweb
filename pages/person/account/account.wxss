@@ -1,0 +1,44 @@
+page{
+    background: #f4f4f4;
+}
+.balance{
+    height: 100px;
+    background: #3674f5;
+    display: flex;
+    flex-direction: column;
+}
+.balanceTitle{
+    font-size: 15px;
+    color:  #bbd2fa;
+    margin: 10px 20px;
+}
+.balanceInfo{
+    font-size: 35px;
+    color: #fefefe;
+    margin-left: 20px;
+}
+.singleDetail{
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    background: #fefefe;
+    border-radius: 5px;
+    height: 68px;
+}
+.cause{
+    margin: 10px;
+}
+.change{
+    position: absolute;
+    margin-top: 10px;
+    right: 25px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    margin-left: 10px;
+    font-size: 13px;
+    color: #b6b6b6;
+}
